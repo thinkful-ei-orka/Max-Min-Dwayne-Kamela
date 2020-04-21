@@ -28,3 +28,17 @@ const figures = [1, 6, 14, 7, 12];
 
 console.log(Max(figures));
 console.log(Min(figures));
+
+
+///compute the average 
+
+function average (numbers) {
+    let sum = 0;
+    numbers.forEach(num => {
+        sum += num;
+    });
+    return sum / array.length;
+}
+
+}
+console.log(average(figures));
